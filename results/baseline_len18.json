@@ -1,0 +1,141 @@
+{
+  "model": "BAAI/nova-d48w1024-osp480",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "prompt": "A dog drinking water from a bowl in a sunny garden.",
+  "latent_frames": 18,
+  "video_frames": 69,
+  "settings": "64 spatial steps, 25 diffusion steps, guidance 5, fp16, CPU offload",
+  "total_s": 321.0,
+  "temporal_s": 0.7,
+  "spatial_s": 317.3,
+  "peak_gpu_mb": 2187.8,
+  "final_cache_mb": 842.2,
+  "frames": [
+    {
+      "latent_frame": 1,
+      "spatial_s": 19.27,
+      "cache_tokens": 618,
+      "cache_mb": 77.2,
+      "gpu_alloc_mb": 1370.7
+    },
+    {
+      "latent_frame": 2,
+      "spatial_s": 18.83,
+      "cache_tokens": 978,
+      "cache_mb": 122.2,
+      "gpu_alloc_mb": 1381.4
+    },
+    {
+      "latent_frame": 3,
+      "spatial_s": 19.04,
+      "cache_tokens": 1338,
+      "cache_mb": 167.2,
+      "gpu_alloc_mb": 1426.4
+    },
+    {
+      "latent_frame": 4,
+      "spatial_s": 18.5,
+      "cache_tokens": 1698,
+      "cache_mb": 212.2,
+      "gpu_alloc_mb": 1470.6
+    },
+    {
+      "latent_frame": 5,
+      "spatial_s": 18.63,
+      "cache_tokens": 2058,
+      "cache_mb": 257.2,
+      "gpu_alloc_mb": 1515.7
+    },
+    {
+      "latent_frame": 6,
+      "spatial_s": 18.51,
+      "cache_tokens": 2418,
+      "cache_mb": 302.2,
+      "gpu_alloc_mb": 1560.2
+    },
+    {
+      "latent_frame": 7,
+      "spatial_s": 18.81,
+      "cache_tokens": 2778,
+      "cache_mb": 347.2,
+      "gpu_alloc_mb": 1606.1
+    },
+    {
+      "latent_frame": 8,
+      "spatial_s": 18.84,
+      "cache_tokens": 3138,
+      "cache_mb": 392.2,
+      "gpu_alloc_mb": 1650.3
+    },
+    {
+      "latent_frame": 9,
+      "spatial_s": 18.81,
+      "cache_tokens": 3498,
+      "cache_mb": 437.2,
+      "gpu_alloc_mb": 1695.2
+    },
+    {
+      "latent_frame": 10,
+      "spatial_s": 18.9,
+      "cache_tokens": 3858,
+      "cache_mb": 482.2,
+      "gpu_alloc_mb": 1746.8
+    },
+    {
+      "latent_frame": 11,
+      "spatial_s": 19.35,
+      "cache_tokens": 4218,
+      "cache_mb": 527.2,
+      "gpu_alloc_mb": 1785.6
+    },
+    {
+      "latent_frame": 12,
+      "spatial_s": 16.83,
+      "cache_tokens": 4578,
+      "cache_mb": 572.2,
+      "gpu_alloc_mb": 1832.0
+    },
+    {
+      "latent_frame": 13,
+      "spatial_s": 15.06,
+      "cache_tokens": 4938,
+      "cache_mb": 617.2,
+      "gpu_alloc_mb": 1883.2
+    },
+    {
+      "latent_frame": 14,
+      "spatial_s": 16.11,
+      "cache_tokens": 5298,
+      "cache_mb": 662.2,
+      "gpu_alloc_mb": 1920.5
+    },
+    {
+      "latent_frame": 15,
+      "spatial_s": 15.58,
+      "cache_tokens": 5658,
+      "cache_mb": 707.2,
+      "gpu_alloc_mb": 1966.1
+    },
+    {
+      "latent_frame": 16,
+      "spatial_s": 15.9,
+      "cache_tokens": 6018,
+      "cache_mb": 752.2,
+      "gpu_alloc_mb": 2017.0
+    },
+    {
+      "latent_frame": 17,
+      "spatial_s": 15.2,
+      "cache_tokens": 6378,
+      "cache_mb": 797.2,
+      "gpu_alloc_mb": 2055.7
+    },
+    {
+      "latent_frame": 18,
+      "spatial_s": 15.08,
+      "cache_tokens": 6738,
+      "cache_mb": 842.2,
+      "gpu_alloc_mb": 2101.2
+    }
+  ]
+}

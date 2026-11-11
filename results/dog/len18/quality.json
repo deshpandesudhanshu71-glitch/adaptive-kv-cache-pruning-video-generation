@@ -1,0 +1,102 @@
+{
+  "adaptive80": {
+    "subject_consistency": 0.836,
+    "temporal_flickering": 0.9885,
+    "subject_consistency_after33": 0.9388
+  },
+  "adaptive90": {
+    "subject_consistency": 0.8318,
+    "temporal_flickering": 0.988,
+    "subject_consistency_after33": 0.9325
+  },
+  "adaptive90_int8": {
+    "subject_consistency": 0.8446,
+    "temporal_flickering": 0.9866,
+    "subject_consistency_after33": 0.9207
+  },
+  "adaptive90_recheck2": {
+    "subject_consistency": 0.8332,
+    "temporal_flickering": 0.9888,
+    "subject_consistency_after33": 0.9369
+  },
+  "adaptive90_recheck4": {
+    "subject_consistency": 0.8291,
+    "temporal_flickering": 0.9883,
+    "subject_consistency_after33": 0.9321
+  },
+  "full": {
+    "subject_consistency": 0.831,
+    "temporal_flickering": 0.9882,
+    "subject_consistency_after33": 0.9327
+  },
+  "full_int4": {
+    "subject_consistency": 0.8492,
+    "temporal_flickering": 0.9861,
+    "subject_consistency_after33": 0.8574
+  },
+  "full_int8": {
+    "subject_consistency": 0.8393,
+    "temporal_flickering": 0.9866,
+    "subject_consistency_after33": 0.9178
+  },
+  "full_repeat": {
+    "subject_consistency": 0.831,
+    "temporal_flickering": 0.9882,
+    "subject_consistency_after33": 0.9327
+  },
+  "h2o2": {
+    "subject_consistency": 0.8135,
+    "temporal_flickering": 0.9891,
+    "subject_consistency_after33": 0.9183
+  },
+  "h2o4": {
+    "subject_consistency": 0.8317,
+    "temporal_flickering": 0.9891,
+    "subject_consistency_after33": 0.9218
+  },
+  "h2o8": {
+    "subject_consistency": 0.8345,
+    "temporal_flickering": 0.9885,
+    "subject_consistency_after33": 0.9391
+  },
+  "sink2_window1": {
+    "subject_consistency": 0.831,
+    "temporal_flickering": 0.9873,
+    "subject_consistency_after33": 0.8808
+  },
+  "sink2_window2": {
+    "subject_consistency": 0.818,
+    "temporal_flickering": 0.989,
+    "subject_consistency_after33": 0.9097
+  },
+  "sink2_window4": {
+    "subject_consistency": 0.8447,
+    "temporal_flickering": 0.9881,
+    "subject_consistency_after33": 0.9315
+  },
+  "window1": {
+    "subject_consistency": 0.8061,
+    "temporal_flickering": 0.99,
+    "subject_consistency_after33": 0.9619
+  },
+  "window2": {
+    "subject_consistency": 0.8295,
+    "temporal_flickering": 0.9868,
+    "subject_consistency_after33": 0.9336
+  },
+  "window4": {
+    "subject_consistency": 0.8196,
+    "temporal_flickering": 0.989,
+    "subject_consistency_after33": 0.9126
+  },
+  "window4_int8": {
+    "subject_consistency": 0.7918,
+    "temporal_flickering": 0.984,
+    "subject_consistency_after33": 0.8677
+  },
+  "window8": {
+    "subject_consistency": 0.8373,
+    "temporal_flickering": 0.9889,
+    "subject_consistency_after33": 0.9432
+  }
+}

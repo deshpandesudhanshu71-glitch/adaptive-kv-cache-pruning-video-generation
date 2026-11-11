@@ -1,0 +1,716 @@
+{
+  "tag": "adaptive90_recheck4",
+  "method": "adaptive",
+  "n": 4,
+  "bits": 16,
+  "tau": 0.9,
+  "warmup": 8,
+  "sink_frames": 2,
+  "recheck": 4,
+  "adaptive_windows": {
+    "0": 2,
+    "1": 2,
+    "2": 8,
+    "3": 2,
+    "4": 7,
+    "5": 5,
+    "6": 7,
+    "7": 5,
+    "8": 8,
+    "9": 7,
+    "10": 7,
+    "11": 7,
+    "12": 7,
+    "13": 7,
+    "14": 4,
+    "15": 5
+  },
+  "window_history": [
+    {
+      "step": 8,
+      "layer": 0,
+      "window": 2
+    },
+    {
+      "step": 8,
+      "layer": 1,
+      "window": 3
+    },
+    {
+      "step": 8,
+      "layer": 2,
+      "window": 6
+    },
+    {
+      "step": 8,
+      "layer": 3,
+      "window": 6
+    },
+    {
+      "step": 8,
+      "layer": 4,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 5,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 6,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 7,
+      "window": 3
+    },
+    {
+      "step": 8,
+      "layer": 8,
+      "window": 6
+    },
+    {
+      "step": 8,
+      "layer": 9,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 10,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 11,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 12,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 13,
+      "window": 5
+    },
+    {
+      "step": 8,
+      "layer": 14,
+      "window": 4
+    },
+    {
+      "step": 8,
+      "layer": 15,
+      "window": 4
+    },
+    {
+      "step": 12,
+      "layer": 0,
+      "window": 3
+    },
+    {
+      "step": 12,
+      "layer": 1,
+      "window": 4
+    },
+    {
+      "step": 12,
+      "layer": 2,
+      "window": 7
+    },
+    {
+      "step": 12,
+      "layer": 3,
+      "window": 7
+    },
+    {
+      "step": 12,
+      "layer": 4,
+      "window": 6
+    },
+    {
+      "step": 12,
+      "layer": 5,
+      "window": 4
+    },
+    {
+      "step": 12,
+      "layer": 6,
+      "window": 6
+    },
+    {
+      "step": 12,
+      "layer": 7,
+      "window": 4
+    },
+    {
+      "step": 12,
+      "layer": 8,
+      "window": 7
+    },
+    {
+      "step": 12,
+      "layer": 9,
+      "window": 6
+    },
+    {
+      "step": 12,
+      "layer": 10,
+      "window": 6
+    },
+    {
+      "step": 12,
+      "layer": 11,
+      "window": 6
+    },
+    {
+      "step": 12,
+      "layer": 12,
+      "window": 6
+    },
+    {
+      "step": 12,
+      "layer": 13,
+      "window": 6
+    },
+    {
+      "step": 12,
+      "layer": 14,
+      "window": 4
+    },
+    {
+      "step": 12,
+      "layer": 15,
+      "window": 5
+    },
+    {
+      "step": 16,
+      "layer": 0,
+      "window": 2
+    },
+    {
+      "step": 16,
+      "layer": 1,
+      "window": 2
+    },
+    {
+      "step": 16,
+      "layer": 2,
+      "window": 8
+    },
+    {
+      "step": 16,
+      "layer": 3,
+      "window": 2
+    },
+    {
+      "step": 16,
+      "layer": 4,
+      "window": 7
+    },
+    {
+      "step": 16,
+      "layer": 5,
+      "window": 5
+    },
+    {
+      "step": 16,
+      "layer": 6,
+      "window": 7
+    },
+    {
+      "step": 16,
+      "layer": 7,
+      "window": 5
+    },
+    {
+      "step": 16,
+      "layer": 8,
+      "window": 8
+    },
+    {
+      "step": 16,
+      "layer": 9,
+      "window": 7
+    },
+    {
+      "step": 16,
+      "layer": 10,
+      "window": 7
+    },
+    {
+      "step": 16,
+      "layer": 11,
+      "window": 7
+    },
+    {
+      "step": 16,
+      "layer": 12,
+      "window": 7
+    },
+    {
+      "step": 16,
+      "layer": 13,
+      "window": 7
+    },
+    {
+      "step": 16,
+      "layer": 14,
+      "window": 4
+    },
+    {
+      "step": 16,
+      "layer": 15,
+      "window": 5
+    }
+  ],
+  "model": "BAAI/nova-d48w1024-osp480",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "prompt": "dog",
+  "seed": 0,
+  "latent_frames": 18,
+  "video_frames": 69,
+  "settings": "64 spatial steps, 25 diffusion steps, guidance 5, fp16, CPU offload",
+  "total_s": 365.7,
+  "temporal_s": 3.57,
+  "spatial_s": 357.8,
+  "peak_gpu_mb": 1844.8,
+  "final_cache_mb": 420.4,
+  "frames": [
+    {
+      "latent_frame": 1,
+      "spatial_s": 21.12,
+      "cache_tokens_per_layer": [
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618,
+        618
+      ],
+      "cache_mb": 77.2,
+      "gpu_alloc_mb": 1372.0
+    },
+    {
+      "latent_frame": 2,
+      "spatial_s": 18.94,
+      "cache_tokens_per_layer": [
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978,
+        978
+      ],
+      "cache_mb": 122.2,
+      "gpu_alloc_mb": 1397.6
+    },
+    {
+      "latent_frame": 3,
+      "spatial_s": 18.83,
+      "cache_tokens_per_layer": [
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338,
+        1338
+      ],
+      "cache_mb": 167.2,
+      "gpu_alloc_mb": 1433.1
+    },
+    {
+      "latent_frame": 4,
+      "spatial_s": 18.79,
+      "cache_tokens_per_layer": [
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698,
+        1698
+      ],
+      "cache_mb": 212.2,
+      "gpu_alloc_mb": 1480.9
+    },
+    {
+      "latent_frame": 5,
+      "spatial_s": 18.8,
+      "cache_tokens_per_layer": [
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058,
+        2058
+      ],
+      "cache_mb": 257.2,
+      "gpu_alloc_mb": 1527.1
+    },
+    {
+      "latent_frame": 6,
+      "spatial_s": 20.11,
+      "cache_tokens_per_layer": [
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418,
+        2418
+      ],
+      "cache_mb": 302.2,
+      "gpu_alloc_mb": 1574.6
+    },
+    {
+      "latent_frame": 7,
+      "spatial_s": 20.1,
+      "cache_tokens_per_layer": [
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778,
+        2778
+      ],
+      "cache_mb": 347.2,
+      "gpu_alloc_mb": 1622.6
+    },
+    {
+      "latent_frame": 8,
+      "spatial_s": 20.16,
+      "cache_tokens_per_layer": [
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138
+      ],
+      "cache_mb": 392.2,
+      "gpu_alloc_mb": 1668.7
+    },
+    {
+      "latent_frame": 9,
+      "spatial_s": 20.18,
+      "cache_tokens_per_layer": [
+        2058,
+        2418,
+        3498,
+        3498,
+        3138,
+        3138,
+        3138,
+        2418,
+        3498,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        2778,
+        2778
+      ],
+      "cache_mb": 375.4,
+      "gpu_alloc_mb": 1653.4
+    },
+    {
+      "latent_frame": 10,
+      "spatial_s": 20.11,
+      "cache_tokens_per_layer": [
+        2058,
+        2418,
+        3498,
+        3498,
+        3138,
+        3138,
+        3138,
+        2418,
+        3498,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        2778,
+        2778
+      ],
+      "cache_mb": 375.4,
+      "gpu_alloc_mb": 1653.9
+    },
+    {
+      "latent_frame": 11,
+      "spatial_s": 20.11,
+      "cache_tokens_per_layer": [
+        2058,
+        2418,
+        3498,
+        3498,
+        3138,
+        3138,
+        3138,
+        2418,
+        3498,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        2778,
+        2778
+      ],
+      "cache_mb": 375.4,
+      "gpu_alloc_mb": 1653.5
+    },
+    {
+      "latent_frame": 12,
+      "spatial_s": 20.18,
+      "cache_tokens_per_layer": [
+        2058,
+        2418,
+        3498,
+        3498,
+        3138,
+        3138,
+        3138,
+        2418,
+        3498,
+        3138,
+        3138,
+        3138,
+        3138,
+        3138,
+        2778,
+        2778
+      ],
+      "cache_mb": 375.4,
+      "gpu_alloc_mb": 1653.7
+    },
+    {
+      "latent_frame": 13,
+      "spatial_s": 20.12,
+      "cache_tokens_per_layer": [
+        2418,
+        2778,
+        3858,
+        3858,
+        3498,
+        2778,
+        3498,
+        2778,
+        3858,
+        3498,
+        3498,
+        3498,
+        3498,
+        3498,
+        2778,
+        3138
+      ],
+      "cache_mb": 411.9,
+      "gpu_alloc_mb": 1689.9
+    },
+    {
+      "latent_frame": 14,
+      "spatial_s": 19.94,
+      "cache_tokens_per_layer": [
+        2418,
+        2778,
+        3858,
+        3858,
+        3498,
+        2778,
+        3498,
+        2778,
+        3858,
+        3498,
+        3498,
+        3498,
+        3498,
+        3498,
+        2778,
+        3138
+      ],
+      "cache_mb": 411.9,
+      "gpu_alloc_mb": 1691.0
+    },
+    {
+      "latent_frame": 15,
+      "spatial_s": 19.99,
+      "cache_tokens_per_layer": [
+        2418,
+        2778,
+        3858,
+        3858,
+        3498,
+        2778,
+        3498,
+        2778,
+        3858,
+        3498,
+        3498,
+        3498,
+        3498,
+        3498,
+        2778,
+        3138
+      ],
+      "cache_mb": 411.9,
+      "gpu_alloc_mb": 1691.1
+    },
+    {
+      "latent_frame": 16,
+      "spatial_s": 20.03,
+      "cache_tokens_per_layer": [
+        2418,
+        2778,
+        3858,
+        3858,
+        3498,
+        2778,
+        3498,
+        2778,
+        3858,
+        3498,
+        3498,
+        3498,
+        3498,
+        3498,
+        2778,
+        3138
+      ],
+      "cache_mb": 411.9,
+      "gpu_alloc_mb": 1690.8
+    },
+    {
+      "latent_frame": 17,
+      "spatial_s": 20.31,
+      "cache_tokens_per_layer": [
+        2058,
+        2058,
+        4218,
+        2058,
+        3858,
+        3138,
+        3858,
+        3138,
+        4218,
+        3858,
+        3858,
+        3858,
+        3858,
+        3858,
+        2778,
+        3138
+      ],
+      "cache_mb": 420.4,
+      "gpu_alloc_mb": 1699.1
+    },
+    {
+      "latent_frame": 18,
+      "spatial_s": 19.97,
+      "cache_tokens_per_layer": [
+        2058,
+        2058,
+        4218,
+        2058,
+        3858,
+        3138,
+        3858,
+        3138,
+        4218,
+        3858,
+        3858,
+        3858,
+        3858,
+        3858,
+        2778,
+        3138
+      ],
+      "cache_mb": 420.4,
+      "gpu_alloc_mb": 1699.4
+    }
+  ]
+}
