@@ -1,8 +1,3 @@
-"""Encode the baseline prompt with NOVA's Phi-2 text encoder on its own and save the result.
-
-Loading the whole pipeline at once needs more RAM than the laptop has free, so the text encoder
-is loaded alone here. baseline.py then loads the pipeline without it.
-"""
 import argparse
 import os
 

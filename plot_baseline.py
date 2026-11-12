@@ -1,4 +1,3 @@
-"""Plot how NOVA's temporal KV cache grows with video length (baseline, full cache)."""
 import json
 import os
 

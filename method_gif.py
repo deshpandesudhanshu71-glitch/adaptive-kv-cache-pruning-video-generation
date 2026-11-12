@@ -1,11 +1,3 @@
-"""Animation of the per-layer cache while NOVA makes the video, one latent frame at a time.
-
-Left: the video frame being made (adaptive run). Right: what the full cache and four of the
-temporal layers keep at that moment, with the windows the adaptive run chose. Bottom: total
-cache size, full against adaptive, from the same numbers as run.json.
-
-    python method_gif.py --layers 0 7 14 2
-"""
 import argparse
 import io
 import json

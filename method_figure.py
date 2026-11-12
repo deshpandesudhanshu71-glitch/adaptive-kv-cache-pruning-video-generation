@@ -1,10 +1,3 @@
-"""Picture of what the adaptive method keeps in the cache, layer by layer.
-
-Top: the steps of the method. Bottom: the cache of every temporal layer while NOVA makes the
-last latent frame, using the windows the adaptive run actually chose.
-
-    python method_figure.py --run adaptive90
-"""
 import argparse
 import json
 import os

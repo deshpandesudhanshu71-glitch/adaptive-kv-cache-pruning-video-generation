@@ -1,13 +1,3 @@
-"""Record NOVA's baseline cost with the full KV cache: time, peak GPU memory and cache size.
-
-Nothing in the NOVA code is changed. The script wraps a few methods at run time to time the
-temporal layers (video_encoder) and the spatial layers (generate_frame) separately, and reads
-the size of the temporal KV cache after every latent frame.
-
-Usage:
-    python baseline.py --length 9      # 33 video frames, the training length
-    python baseline.py --length 18     # 69 video frames, twice the training length
-"""
 import argparse
 import json
 import os

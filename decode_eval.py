@@ -1,13 +1,3 @@
-"""Decode every run's latents to video and compare it with the full cache run.
-
-For each run in results/<prompt>/len<L>/ this writes video.mp4 and frames.npy (if missing), then
-metrics.json with, per frame, PSNR, SSIM and LPIPS against the full cache video, plus the
-relative error of the latents and of the temporal features handed to the spatial layers.
-A summary of every run goes to summary.json in the same folder.
-
-Run it after all the runs have finished, since the VAE needs the GPU:
-    python decode_eval.py --prompt dog --length 18
-"""
 import argparse
 import gc
 import json

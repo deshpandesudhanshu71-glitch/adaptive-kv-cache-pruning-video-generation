@@ -1,11 +1,3 @@
-"""How the adaptive method picks one layer's window, shown for two layers.
-
-Rebuilds the warm-up profile from the full cache analysis run (the cache is full during the
-warm-up, so it is the same attention the adaptive run saw) and applies the same rule as
-Lab.choose_windows. Checks the result against the windows saved by the adaptive run.
-
-    python window_figure.py --layers 0 2
-"""
 import argparse
 import json
 import os

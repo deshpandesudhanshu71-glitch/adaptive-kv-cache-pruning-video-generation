@@ -1,16 +1,3 @@
-"""Generate one video with a chosen KV cache method and record its cost.
-
-Same setup as baseline.py (same prompt embeddings, seed, steps and guidance), but the temporal
-attention goes through kvlab, and the latents and the temporal features for each frame are
-saved so the quality can be compared with the full cache afterwards (decode_eval.py).
-
-Usage:
-    python run_method.py --method full --analyse     # method 0, plus the attention analysis
-    python run_method.py --method window --n 4
-    python run_method.py --method h2o --n 4
-    python run_method.py --method full --bits 8      # quantisation
-    python run_method.py --method adaptive --tau 0.9
-"""
 import argparse
 import json
 import os

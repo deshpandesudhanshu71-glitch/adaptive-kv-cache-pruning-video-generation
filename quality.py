@@ -1,15 +1,3 @@
-"""Quality scores that do not need the full cache video, following VBench's definitions.
-
-    subject consistency     DINO ViT-B/16 features of each frame against the first and the
-                            previous frame (VBench uses the same model)
-    temporal flickering     1 - mean absolute change between neighbouring frames
-Background consistency and text alignment need CLIP and are not computed here.
-
-This is a subset computed with the same backbones, not the official VBench toolkit.
-Writes quality.json next to summary.json.
-
-    python quality.py --prompt dog --length 18
-"""
 import argparse
 import json
 import os

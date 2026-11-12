@@ -1,13 +1,3 @@
-"""Generate a short video with NOVA (BAAI/nova-d48w1024-osp480) on a small GPU.
-
-Usage:
-    python generate_video.py "Many spotted jellyfish pulsating under water."
-    python generate_video.py "A dog drinking water." --out dog.mp4 --hq
-    python generate_video.py --decode-only --out dog.mp4    # retry decoding saved latents
-
-The generated latents are saved next to the video (dog.latents.pt) before decoding,
-so if decoding fails you can retry it without generating again.
-"""
 import argparse
 import gc
 import os
